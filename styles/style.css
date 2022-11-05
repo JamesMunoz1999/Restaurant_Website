@@ -1,0 +1,121 @@
+/* Header */
+
+header ul {
+    display: flex;
+    justify-content:flex-end;
+}
+
+header ul li {
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#lastLIHeader {
+    padding-right: 100px;
+}
+
+
+#shoppingCart, #searchIcon {
+    height: 30px;
+    width: 30px;
+
+}
+
+
+/* Main */
+main {
+    background-image: url("images/restaurantMain.jpg");
+    height: 900px;
+}
+
+h1 {
+    padding-left: 1100px;
+    padding-top: 200px;
+    font-size: 100px;
+}
+
+/* Initial Section */
+#firstSection {
+display: flex;
+flex-direction: row;
+}
+
+/* #firstSectionLeft {
+    height: 750px;
+    width: 900px;
+} */
+
+#firstSectionLeft img {
+    height: 750px;
+    width: 900px;
+}
+
+#firstSectionRight {
+    height: 750px;
+    background-color: rgb(237, 242, 245);
+}
+
+#firstSectionRight span {
+    color: orange;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    padding: 50px 0 0 50px;
+}
+
+#firstSectionRight h2 {
+    font-weight: bold;
+    font-size: 65px;
+    padding: 20px 0 0 50px;
+}
+
+#firstSectionRight p {
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 20px 30px 0 50px;
+}
+
+/* Second Section */
+
+#secondSection {
+    height: 750px;
+    background-color: rgb(237, 242, 245);
+}
+
+#secondSection > span {
+    color: orange;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+#secondSection h3 {
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+#secondSectionSelection {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 600px;
+}
+
+#secondSectionSelection span {
+    font-size: 24px;
+}
+
+#secondSectionMenu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 400px;
+}
+
+#secondSectionMenu img {
+    height: 300px;
+    width: 250px;
+}
